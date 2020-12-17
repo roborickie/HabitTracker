@@ -23,10 +23,6 @@
     "48": "images/get_started48.png",
     "128": "images/get_started128.png"
   },
-  // "oauth2": {
-  //   "client_id": "649648126765-1t1812kcdppib7sbg9750v7fophftnvg.apps.googleusercontent.com",
-  //   "key": "AIzaSyB4CxNkH9JWAcrpCWSyZHoHA9ATgfsGjMw",
-  //   "scopes":["https://www.googleapis.com/auth/spreadsheets"]
-  // },
+  
   "manifest_version": 2
 }

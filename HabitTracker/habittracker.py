@@ -14,7 +14,7 @@ results = c.fetchall()
 
 # use creds to create a client to interact with the Google Drive API
 scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-creds = ServiceAccountCredentials.from_json_keyfile_name('habittracker-36bda3a95231.json', scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name('', scope)
 # creds = os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "/Users/ananyapamal/Documents/ananya_grade9/HackTJ7.5/HabitTracker/client_secret.json"
 client = gspread.authorize(creds)
 
